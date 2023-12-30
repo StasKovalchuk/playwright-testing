@@ -1,0 +1,276 @@
+{
+  "config": {
+    "configFile": "/home/stanislav/work/github/playwright-testing/playwright.config.ts",
+    "rootDir": "/home/stanislav/work/github/playwright-testing",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/stanislav/work/github/playwright-testing/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chrome:latest:MacOS Catalina@lambdatest",
+        "name": "chrome:latest:MacOS Catalina@lambdatest",
+        "testDir": "/home/stanislav/work/github/playwright-testing",
+        "testIgnore": [],
+        "testMatch": [
+          "pomtest/addToCartUsingFixture.test.ts"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "/home/stanislav/work/github/playwright-testing/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chrome:latest:Windows 10@lambdatest",
+        "name": "chrome:latest:Windows 10@lambdatest",
+        "testDir": "/home/stanislav/work/github/playwright-testing",
+        "testIgnore": [],
+        "testMatch": [
+          "pomtest/addToCartUsingFixture.test.ts"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "/home/stanislav/work/github/playwright-testing/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chrome",
+        "name": "chrome",
+        "testDir": "/home/stanislav/work/github/playwright-testing",
+        "testIgnore": [],
+        "testMatch": [
+          "pomtest/addToCartUsingFixture.test.ts"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "/home/stanislav/work/github/playwright-testing/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/stanislav/work/github/playwright-testing",
+        "testIgnore": [],
+        "testMatch": [
+          "pomtest/addToCartUsingFixture.test.ts"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.40.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "pomtest/addToCartUsingFixture.test.ts",
+      "file": "pomtest/addToCartUsingFixture.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Page object test demo",
+          "file": "pomtest/addToCartUsingFixture.test.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Register test_01",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome",
+                  "projectName": "chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 5339,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-12-30T14:30:49.882Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/stanislav/work/github/playwright-testing/test-results/pomtest-addToCartUsingFixture-Page-object-test-demo-Register-test-01-chrome/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "92fe7589f3cd844569b7-6db9db4e110b9950bb0f",
+              "file": "pomtest/addToCartUsingFixture.test.ts",
+              "line": 10,
+              "column": 9
+            },
+            {
+              "title": "Login test_02",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome",
+                  "projectName": "chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 18999,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-12-30T14:30:55.225Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/stanislav/work/github/playwright-testing/test-results/pomtest-addToCartUsingFixture-Page-object-test-demo-Login-test-02-chrome/test-finished-1.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/stanislav/work/github/playwright-testing/test-results/pomtest-addToCartUsingFixture-Page-object-test-demo-Login-test-02-chrome/test-finished-2.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "92fe7589f3cd844569b7-646e28e5c69fccd8b142",
+              "file": "pomtest/addToCartUsingFixture.test.ts",
+              "line": 23,
+              "column": 9
+            },
+            {
+              "title": "Add to cart test_03",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome",
+                  "projectName": "chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "failed",
+                      "duration": 122519,
+                      "error": {
+                        "message": "Error: page.hover: Target page, context or browser has been closed\nCall log:\n  \u001b[2m- waiting for locator('//div[@class=\\'image\\']/a')\u001b[22m\n",
+                        "stack": "Error: page.hover: Target page, context or browser has been closed\nCall log:\n  \u001b[2m- waiting for locator('//div[@class=\\'image\\']/a')\u001b[22m\n\n    at SpecialHotPage.addFirstProductToTheCart (/home/stanislav/work/github/playwright-testing/pages/specialHotPage.ts:8:25)\n    at /home/stanislav/work/github/playwright-testing/pomtest/addToCartUsingFixture.test.ts:36:27",
+                        "location": {
+                          "file": "/home/stanislav/work/github/playwright-testing/pages/specialHotPage.ts",
+                          "column": 25,
+                          "line": 8
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39mpages/specialHotPage.ts:8\n\n\u001b[0m \u001b[90m  6 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m     \u001b[36masync\u001b[39m addFirstProductToTheCart() { \u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mhover(\u001b[32m\"//div[@class='image']/a\"\u001b[39m\u001b[33m,\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m             strict\u001b[33m:\u001b[39m \u001b[36mfalse\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[32m\"(//button[@title='Add to Cart'])\"\u001b[39m)\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/stanislav/work/github/playwright-testing/pages/specialHotPage.ts",
+                            "column": 25,
+                            "line": 8
+                          },
+                          "message": "Error: page.hover: Target page, context or browser has been closed\nCall log:\n  \u001b[2m- waiting for locator('//div[@class=\\'image\\']/a')\u001b[22m\n\n\n\u001b[90m   at \u001b[39mpages/specialHotPage.ts:8\n\n\u001b[0m \u001b[90m  6 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m     \u001b[36masync\u001b[39m addFirstProductToTheCart() { \u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mhover(\u001b[32m\"//div[@class='image']/a\"\u001b[39m\u001b[33m,\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m             strict\u001b[33m:\u001b[39m \u001b[36mfalse\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[32m\"(//button[@title='Add to Cart'])\"\u001b[39m)\u001b[0m\n\n\u001b[2m    at SpecialHotPage.addFirstProductToTheCart (/home/stanislav/work/github/playwright-testing/pages/specialHotPage.ts:8:25)\u001b[22m\n\u001b[2m    at /home/stanislav/work/github/playwright-testing/pomtest/addToCartUsingFixture.test.ts:36:27\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-12-30T14:31:14.226Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/stanislav/work/github/playwright-testing/test-results/pomtest-addToCartUsingFixture-Page-object-test-demo-Add-to-cart-test-03-chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/stanislav/work/github/playwright-testing/test-results/pomtest-addToCartUsingFixture-Page-object-test-demo-Add-to-cart-test-03-chrome/test-failed-2.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/stanislav/work/github/playwright-testing/pages/specialHotPage.ts",
+                        "column": 25,
+                        "line": 8
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "92fe7589f3cd844569b7-708bec4f58a5d1ccb675",
+              "file": "pomtest/addToCartUsingFixture.test.ts",
+              "line": 31,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2023-12-30T14:30:49.551Z",
+    "duration": 147313.961,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
