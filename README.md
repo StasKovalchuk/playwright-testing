@@ -3,7 +3,7 @@ This repository is part of online tutorial for this [youtube channel](https://ww
 
 ## How to use?
 - Clone the repository
-- open the project
+- Open the project
 - From the terminal install all the dependencies using 'npm i'
 
 ## Required software
